@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.agribilanga"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/grtech/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.agribilanga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/grtech/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/grtech/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.agribilanga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/grtech/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/grtech/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:5:5-35:19
+18        android:allowBackup="true"
+18-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/grtech/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@drawable/splash"
+24-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:9:9-40
+25        android:label="@string/app_name"
+25-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.AgriBilengi" >
+28-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:12:9-49
+29        <activity
+29-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:15:9-16:38
+30            android:name="com.example.agribilanga.MainActivity"
+30-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:15:19-47
+31            android:exported="true" />
+31-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:16:13-36
+32        <activity
+32-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:17:9-28:20
+33            android:name="com.example.agribilanga.SplashScreen"
+33-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:18:13-41
+34            android:exported="true"
+34-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:19:13-36
+35            android:theme="@style/Splash_screen" >
+35-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:20:13-49
+36            <intent-filter>
+36-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:22:13-26:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:23:17-69
+37-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:25:17-77
+39-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:25:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.example.agribilanga.Register" />
+42-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:29:9-46
+42-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:29:19-43
+43        <activity android:name="com.example.agribilanga.Finance" />
+43-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:30:9-44
+43-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:30:19-42
+44        <activity android:name="com.example.agribilanga.Product" />
+44-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:31:9-44
+44-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:31:19-42
+45        <activity android:name="com.example.agribilanga.Market_Price" />
+45-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:32:9-49
+45-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:32:19-47
+46        <activity android:name="com.example.agribilanga.Home" />
+46-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:33:9-40
+46-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:33:19-38
+47        <activity android:name="com.example.agribilanga.Help" />
+47-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:34:9-40
+47-->/Users/grtech/Desktop/AgriBilanga/app/src/main/AndroidManifest.xml:34:19-38
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+51            android:authorities="com.example.agribilanga.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/grtech/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/grtech/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/grtech/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/grtech/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
