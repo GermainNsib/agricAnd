@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051874113444",
+    "project_id": "agribilanga-21160",
+    "storage_bucket": "agribilanga-21160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051874113444:android:9b4b268128b9da691c3331",
+        "android_client_info": {
+          "package_name": "com.example.agribilanga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051874113444-rmu1sho85l7nrsl8sjgr6kbplvpps0af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4g5XpRwzUkt5sCkva6oN-hPGyRRN_JYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051874113444-rmu1sho85l7nrsl8sjgr6kbplvpps0af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
